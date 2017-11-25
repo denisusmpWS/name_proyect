@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demoUsmpApp
+  thymeleaf:
+    enabled: true
+    cache: true
+    prefix: classpath:/templates/
+  freemarker:
+    enabled: false
+server:
+  port: 2001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
