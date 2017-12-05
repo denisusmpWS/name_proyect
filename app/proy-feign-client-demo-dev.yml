@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: proy-feign-client-demo
+  freemarker:
+    enabled: false
+  thymeleaf:
+    enabled: false
+    cache: false
+server:
+  port: 2002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+context-path: /api/base
